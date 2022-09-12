@@ -35,9 +35,9 @@ echo "  X Pencere Sistemi Yukleniyor...\n"
     mkdir /etc/X11/xorg.conf.d
     touch /etc/X11/xorg.conf.d/30-keyboard.conf
     cd /etc/X11/xorg.conf.d/
-    sed -i '$ a Section "InputClass"' 30-keyboard.conf
-    sed -i '$ a     Identifier "keyboard-all"' 30-keyboard.conf
-    sed -i '$ a     Driver "evdev"' 30-keyboard.conf
-    sed -i '$ a     MatchIsKeyboard "on"' 30-keyboard.conf
-    sed -i '$ a EndSection"' 30-keyboard.conf
+    sudo sed -i '$ a Section "InputClass"' 30-keyboard.conf
+    sudo sed -i '$ a     Identifier "keyboard-all"' 30-keyboard.conf
+    sudo sed -i '$ a     Driver "evdev"' 30-keyboard.conf
+    sudo sed -i '$ a     MatchIsKeyboard "on"' 30-keyboard.conf
+    sudo sed -i '$ a EndSection"' 30-keyboard.conf
     clear
