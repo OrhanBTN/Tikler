@@ -40,4 +40,4 @@ echo "  X Pencere Sistemi Yukleniyor...\n"
     sudo sed -i '$ a     Driver "evdev"' 30-keyboard.conf
     sudo sed -i '$ a     MatchIsKeyboard "on"' 30-keyboard.conf
     sudo sed -i '$ a EndSection"' 30-keyboard.conf
-    clear
+    
