@@ -32,7 +32,7 @@ echo "    \n"
 echo "  X Pencere Sistemi Yukleniyor...\n"
     sleep 3
     xbps-install -y xorg-server xorg-server-xwayland xorg-video-drivers xorg-input-drivers xinit xauth xrandr xrdb xwininfo xdpyinfo xsetroot neofetch
-    touch /etc/X11/xorg.conf.d
+    mkdir /etc/X11/xorg.conf.d
     touch /etc/X11/xorg.conf.d/30-keyboard.conf
     sed -i '$ a Section "InputClass"' /etc/X11/xorg.conf.d/30-keyboard.conf
     sed -i '$ a     Identifier "keyboard-all"' /etc/X11/xorg.conf.d/30-keyboard.conf
