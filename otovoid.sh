@@ -16,14 +16,16 @@ echo "Yukleme Basliyor Iptal Etmek Icin Ctrl + C Basın\n"
     echo "0..."
     cls 
 echo "Depo ve Sistem Guncellemsi Basliyor...\n"
+    sleep 4
     xbps-install -Suy
     echo "Tamam!"
-    sleep 4
     cls
 echo "Gerekli Paketler Yukleniyor...\n"
+    sleep 4
     xbps-install -y curl wget unzip zip nano vim gptfdisk mtools mlocate ntfs-3g fuse-exfat bash-completion
     echo "Tamam!"
-    sleep 4
     cls
 echo "X Pencere Sistemi Yukleniyor...\n"
+    sleep 4
     xbps-install -y xorg-server xorg-server-xwayland xorg-video-drivers xorg-input-drivers xinit xauth xrandr xrdb xwininfo xdpyinfo xsetroot neofetch
+    clear
