@@ -3,6 +3,8 @@ Yesil='\033[01;32m'
 Kırmız='\033[01;31m'
 Beyaz='\033[00m'
 
+alias cls="clear"
+cls
 echo -e " \n"
 echo -e "\n${Beyaz}Void Yukleme Sonrası Kurulum Scripti${Beyaz}\n"
 echo -e " \n"
