@@ -1,17 +1,17 @@
-Mavi='\033[01;34m'
-Yesil='\033[01;32m'
-Kırmız='\033[01;31m'
-Beyaz='\033[00m'
+mavi='\033[01;34m'
+yesil='\033[01;32m'
+kirmız='\033[01;31m'
+beyaz='\033[00m'
 
 alias cls="clear"
 cls
 echo -e " \n"
-echo -e "\n${Beyaz}Void Yukleme Sonrası Kurulum Scripti${Beyaz}\n"
+echo -e "\n${beyaz}Void Yukleme Sonrası Kurulum Scripti${beyaz}\n"
 echo -e " \n"
-echo -e "\n${Yesil}Kodlama OrhanBTN${Beyaz}\n"
+echo -e "\n${Yesil}Kodlama OrhanBTN${beyaz}\n"
 echo -e " \n"
-echo -e "\n${Beyaz}Kurulum Basliyor${Beyaz}\n"
-echo -e "${Beyaz}3${Beyaz}"
-echo -e "${Yesil}2${Beyaz}"
-echo -e "${Mavi}1${Beyaz}"
-echo -e "${Kırmız}0${Beyaz}"
+echo -e "\n${beyaz}Kurulum Basliyor${beyaz}\n"
+echo -e "${beyaz}3${beyaz}"
+echo -e "${Yesil}2${beyaz}"
+echo -e "${mavi}1${beyaz}"
+echo -e "${kirmız}0${beyaz}"
