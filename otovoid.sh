@@ -1,4 +1,4 @@
-kirmiz="\033[30;41;5m"
+kirmizi="\033[30;41;5m"
 yesil="\033[30;42;5m"
 sari="\033[30;43;5m"
 mavi="\033[30;44;5m"
@@ -10,10 +10,19 @@ alias cls="clear"
 
 cls
 
-echo "${kirmiz} Kırmızı ${sfr}"
-echo "${yesil} Yeşil ${sfr}"
-echo "${sari} Sarı ${sfr}"
-echo "${mavi} Mavi ${sfr}"
-echo "${mor} Mor ${sfr}"
-echo "${lacivert} Lacivert ${sfr}"
-echo "${lacivert} 1 ${sfr}" sleep 1 echo "${lacivert} 2 ${sfr}" sleep 2 echo "${lacivert} 1 ${sfr}"
+echo "\n \n"
+echo "\n ${yesil} Void Linux Kurulum Sonrasi Otomatik Program Yukleme Araci ${sfr} \n"
+sleep 2
+echo "\n ${kirmizi} Hazirlayan OrhanBTN ${sfr} \n"
+sleep 2
+echo "\n ${lacivert} Kurulum Basliyor ${sfr} \n"
+sleep 2
+echo "\n ${yesil} 3 ${sfr} \n"
+sleep 1
+echo "\n ${sari} 2 ${sfr} \n"
+sleep 1
+echo "\n ${mor} 1 ${sfr} \n"
+sleep 1
+echo "\n ${kirmiz} 0 ${sfr} \n"
+
+cls
