@@ -8,7 +8,7 @@ cls
 echo " \n"
 echo -e "\n${beyaz}Void Yukleme Sonrası Kurulum Scripti${beyaz}\n"
 echo " \n"
-echo -e "\n${Yesil}Kodlama OrhanBTN${beyaz}\n"
+echo -e "\033[01;32mKodlama OrhanBTN\033[00m"
 echo " \n"
 echo -e "\n${beyaz}Kurulum Basliyor${beyaz}\n"
 echo -e "${beyaz}3${beyaz}"
