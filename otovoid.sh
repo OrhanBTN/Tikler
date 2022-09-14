@@ -108,6 +108,7 @@ echo "\n \n"
 echo "\n ${sari} Dbus Yukleniyor... ${sfr} \n"
     sleep 2
     xbps-install -y dbus
+    ln -s /etc/sv/dbus /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -116,6 +117,8 @@ echo "\n \n"
 echo "\n ${sari} Elogind Yukleniyor... ${sfr} \n"
     sleep 2
     xbps-install -y elogind
+    ln -s /etc/sv/elogind /var/service
+    ln -s /etc/sv/polkitd /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -124,6 +127,7 @@ echo "\n \n"
 echo "\n ${sari} Cronie Yukleniyor... ${sfr} \n"
     sleep 2
     xbps-install -y cronie
+    ln -sv /etc/sv/cronie /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -140,6 +144,7 @@ echo "\n \n"
 echo "\n ${sari} Network Manager Yukleniyor... ${sfr} \n"
     sleep 2
     xbps-install -y NetworkManager NetworkManager-openvpn NetworkManager-openconnect NetworkManager-vpnc NetworkManager-l2tp network-manager-applet
+    ln -sv /etc/sv/NetworkManager /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -148,6 +153,7 @@ echo "\n \n"
 echo "\n ${sari} Connman Yukleniyor... ${sfr} \n"
     sleep 2
     xbps-install -y connman connman-ncurses
+    ln -sv /etc/sv/connmand /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -156,71 +162,11 @@ echo "\n \n"
 echo "\n ${sari} Bluez ve Blueman Yukleniyor... ${sfr} \n"
     sleep 2
     xbps-install -y bluez blueman
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Servisler Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Dbus Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    ln -s /etc/sv/dbus /var/service
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Elogind Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    ln -s /etc/sv/elogind /var/service
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Polkitd Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    ln -s /etc/sv/polkitd /var/service
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Cronie Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    ln -sv /etc/sv/cronie /var/service
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Network Manager Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    ln -sv /etc/sv/NetworkManager /var/service
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Connmand Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
-    ln -sv /etc/sv/connmand /var/service
-    echo "\n ${yesil} Tamam! ${sfr} \n"
-    sleep 2
-    cls
-
-echo "\n \n"
-echo "\n ${lacivert} Bluetooth Servisi Aktiflestiriliyor... ${sfr} \n"
-    sleep 2
     ln -sv /etc/sv/bluetoothd /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
-
+    
 echo "\n \n"
 echo "\n ${lacivert} Lightdm Aktiflestiriliyor... ${sfr} \n"
     sleep 2
