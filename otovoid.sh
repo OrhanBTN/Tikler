@@ -24,6 +24,7 @@ sleep 1
 echo "\n ${mor} 1 ${sfr} \n"
 sleep 1
 echo "\n ${kirmizi} 0 ${sfr} \n"
+sleep 1
 
 cls
 
