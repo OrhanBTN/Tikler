@@ -1,4 +1,4 @@
-kirmız="\033[37;41;5m"
+kirmiz="\033[37;41;5m"
 yesil="\033[37;42;5m"
 sari="\033[37;43;5m"
 mavi="\033[37;44;5m"
@@ -10,7 +10,7 @@ alias cls="clear"
 
 cls
 
-echo -e "\n ${kirmız} Kırmızı ${sfr} \n"
+echo -e "\n ${kirmiz} Kırmızı ${sfr} \n"
 echo -e "\n ${yesil} Yeşil ${sfr} \n"
 echo -e "\n ${sari} Sarı ${sfr} \n"
 echo -e "\n ${mavi} Mavi ${sfr} \n"
