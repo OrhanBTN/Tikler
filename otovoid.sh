@@ -10,9 +10,9 @@ alias cls="clear"
 
 cls
 
-echo -e "\n ${kirmiz} Kırmızı ${sfr}"
-echo -e "\n ${yesil} Yeşil ${sfr}"
-echo -e "\n ${sari} Sarı ${sfr}"
-echo -e "\n ${mavi} Mavi ${sfr}"
-echo -e "\n ${mor} Mor ${sfr}"
-echo -e "\n ${lacivert} Lacivert ${sfr}"
+echo -e "${kirmiz} Kırmızı ${sfr}"
+echo -e "${yesil} Yeşil ${sfr}"
+echo -e "${sari} Sarı ${sfr}"
+echo -e "${mavi} Mavi ${sfr}"
+echo -e "${mor} Mor ${sfr}"
+echo -e "${lacivert} Lacivert ${sfr}"
