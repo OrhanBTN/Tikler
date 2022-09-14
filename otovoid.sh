@@ -25,4 +25,25 @@ echo "\n ${mor} 1 ${sfr} \n"
 sleep 1
 echo "\n ${kirmizi} 0 ${sfr} \n"
 
+cls
 
+echo "\n \n"
+echo "\n ${sari} Sistem ve Deopolar Gunceleniyor... ${sfr} \n"
+    xbps-install -Suy
+    echo "\n ${yesil} Tamam! ${sfr} \n"
+    sleep 2
+    cls
+
+echo "\n \n"
+echo "\n ${sari} Gerekli Paketler Yukleniyor... ${sfr} \n"
+    xbps-install -y curl wget unzip zip nano vim gptfdisk mtools mlocate ntfs-3g fuse-exfat bash-completion
+    echo "\n ${yesil} Tamam! ${sfr} \n"
+    sleep 2
+    cls
+
+echo "\n \n"
+echo "\n ${sari} Xorg Kuruluyor... ${sfr} \n"
+    xbps-install xorg-server xorg-server-xwayland xorg-video-drivers xorg-input-drivers xinit xauth xrandr xrdb xwininfo xdpyinfo xsetroot neofetch
+    echo "\n ${yesil} Tamam! ${sfr} \n"
+    sleep 2
+    cls
