@@ -23,6 +23,6 @@ echo "\n ${sari} 2 ${sfr} \n"
 sleep 1
 echo "\n ${mor} 1 ${sfr} \n"
 sleep 1
-echo "\n ${kirmiz} 0 ${sfr} \n"
+echo "\n ${kirmizi} 0 ${sfr} \n"
 
 
