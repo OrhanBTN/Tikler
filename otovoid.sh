@@ -168,7 +168,7 @@ echo "\n ${lacivert} Servisler Aktiflestiriliyor... ${sfr} \n"
 echo "\n \n"
 echo "\n ${lacivert} Dbus Aktiflestiriliyor... ${sfr} \n"
     sleep 2
-    ln -sv /etc/sv/dbus /var/service
+    ln -s /etc/sv/dbus /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -176,7 +176,7 @@ echo "\n ${lacivert} Dbus Aktiflestiriliyor... ${sfr} \n"
 echo "\n \n"
 echo "\n ${lacivert} Elogind Aktiflestiriliyor... ${sfr} \n"
     sleep 2
-    ln -sv /etc/sv/elogind /var/service
+    ln -s /etc/sv/elogind /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
@@ -184,7 +184,7 @@ echo "\n ${lacivert} Elogind Aktiflestiriliyor... ${sfr} \n"
 echo "\n \n"
 echo "\n ${lacivert} Polkitd Aktiflestiriliyor... ${sfr} \n"
     sleep 2
-    ln -sv /etc/sv/polkitd /var/service
+    ln -s /etc/sv/polkitd /var/service
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
