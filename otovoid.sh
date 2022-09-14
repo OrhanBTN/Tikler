@@ -155,7 +155,7 @@ echo "\n ${sari} Connman Yukleniyor... ${sfr} \n"
 echo "\n \n"
 echo "\n ${sari} Bluez ve Blueman Yukleniyor... ${sfr} \n"
     sleep 2
-    xbps-install bluez blueman
+    xbps-install -y bluez blueman
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
     cls
