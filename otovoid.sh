@@ -29,6 +29,7 @@ cls
 
 echo "\n \n"
 echo "\n ${sari} Sistem ve Deopolar Gunceleniyor... ${sfr} \n"
+    sleep 2
     xbps-install -Suy
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
@@ -36,6 +37,7 @@ echo "\n ${sari} Sistem ve Deopolar Gunceleniyor... ${sfr} \n"
 
 echo "\n \n"
 echo "\n ${sari} Gerekli Paketler Yukleniyor... ${sfr} \n"
+    sleep 2
     xbps-install -y curl wget unzip zip nano vim gptfdisk mtools mlocate ntfs-3g fuse-exfat bash-completion
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
@@ -43,6 +45,7 @@ echo "\n ${sari} Gerekli Paketler Yukleniyor... ${sfr} \n"
 
 echo "\n \n"
 echo "\n ${sari} Xorg Kuruluyor... ${sfr} \n"
+    sleep 2
     xbps-install xorg-server xorg-server-xwayland xorg-video-drivers xorg-input-drivers xinit xauth xrandr xrdb xwininfo xdpyinfo xsetroot neofetch
     echo "\n ${yesil} Tamam! ${sfr} \n"
     sleep 2
