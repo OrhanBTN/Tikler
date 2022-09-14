@@ -1,17 +1,18 @@
-mavi='\033[01;34m'
-yesil='\033[01;32m'
-kirmız='\033[01;31m'
-beyaz='\033[00m'
+kirmız="\033[37;41;5m"
+yesil="\033[37;42;5m"
+sari="\033[37;43;5m"
+mavi="\033[37;44;5m"
+mor="\033[37;45;5m"
+lacivert="\033[37;46;5m"
+sfr="\033[0m"
 
 alias cls="clear"
+
 cls
-echo " \n"
-echo -e "\n${beyaz}Void Yukleme Sonrası Kurulum Scripti${beyaz}\n"
-echo " \n"
-echo -e "\033[01;32mKodlama OrhanBTN\033[00m"
-echo " \n"
-echo -e "\n${beyaz}Kurulum Basliyor${beyaz}\n"
-echo -e "${beyaz}3${beyaz}"
-echo -e "${Yesil}2${beyaz}"
-echo -e "${mavi}1${beyaz}"
-echo -e "${kirmız}0${beyaz}"
+
+echo -e "\n ${kirmız} Kırmızı ${sfr} \n"
+echo -e "\n ${yesil} Yeşil ${sfr} \n"
+echo -e "\n ${sari} Sarı ${sfr} \n"
+echo -e "\n ${mavi} Mavi ${sfr} \n"
+echo -e "\n ${mor} Mor ${sfr} \n"
+echo -e "\n ${lacivert} Lacivert ${sfr} \n"
