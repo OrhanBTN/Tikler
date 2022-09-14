@@ -5,11 +5,11 @@ beyaz='\033[00m'
 
 alias cls="clear"
 cls
-echo -e " \n"
+echo " \n"
 echo -e "\n${beyaz}Void Yukleme Sonrası Kurulum Scripti${beyaz}\n"
-echo -e " \n"
+echo " \n"
 echo -e "\n${Yesil}Kodlama OrhanBTN${beyaz}\n"
-echo -e " \n"
+echo " \n"
 echo -e "\n${beyaz}Kurulum Basliyor${beyaz}\n"
 echo -e "${beyaz}3${beyaz}"
 echo -e "${Yesil}2${beyaz}"
